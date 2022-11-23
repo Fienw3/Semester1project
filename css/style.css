@@ -1,0 +1,409 @@
+:root {
+    --Whitecolor: #EEEEEE;
+    --Goldcolor: #D7B76A;
+    --Blackcolor: #333333;
+    --Greycolor: #D0D0D0;
+}
+
+* {
+    margin: 0px;
+}
+
+
+/*NAV BAR*/
+.z-index-1 {
+    z-index:1 !important;
+}
+
+.navbar {
+    padding: 0px 15px;
+    position: sticky;
+}
+
+.Logo {
+    font-size: 45px;
+    font-family: 'Cormorant, bold';
+    color: var(--Whitecolor);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px var(--Blackcolor);
+}
+.logobox :hover {
+    color: #D7B76A;
+    font-size: 46px;
+}
+
+.navthreebox {
+    text-align: center;
+}
+
+.navthreebox :hover {
+    color: #D7B76A;
+    font-size: 23px ;
+}
+
+.navthree {
+    font-size: 22px;
+    font-family: 'Cormorant, bold';
+    color: var(--Whitecolor);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px var(--Blackcolor);
+}
+
+
+
+
+
+/*Smoked food background-video w. frosted box on top*/
+
+.main {
+    /*width: 1263px;*/
+    height: 570px;
+    padding-left: 0%;
+    position: relative; 
+    overflow: hidden;
+    font-family: 'Cormorant, bold';
+    }
+
+    .frostedboxrow{
+        max-width: 50%;
+    }
+
+    .frostedbox {
+        
+        backdrop-filter: blur(15px) ;
+        position: absolute;
+        top:37%;
+        left:35%;
+        padding: 30px 50px;
+    }
+    
+    .Smokedfood {
+    object-fit: fill;
+    margin: 0px;
+    padding: 0%;
+    }
+
+
+
+/* /*Background/ */
+
+.mastersection {
+    background-image: url("../img/Background.jpg");
+    background-color: #222222;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;  
+}
+
+
+ /*Our history section*/
+
+.OurHistory {
+    min-height: 570px;
+    padding: 75px;
+}
+
+.Castle {
+    height: 350px;
+    /*width: 275px;*/
+}
+
+
+
+/*Overall Typography*/
+
+h3 {
+    font-family: 'Cormorant, bold italic';
+    font-size: 50px;
+}
+
+.yellow-right {
+    color: #D7B76A;
+    padding-left: 100px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.white-right {
+    padding-left: 175px;
+    color: var(--Whitecolor);
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.mainpage-p-right {
+    font-family: 'Cormorant, medium';  
+    font-size: 17px;
+    padding: 30px 250px 30px 100px;
+    color: var(--Whitecolor);
+}
+
+
+
+ /*The food section*/
+
+    .TheFood {
+        min-height: 570px;
+        padding: 75px;
+    }
+    
+    .yellow-left {
+        color: #D7B76A;
+        padding-right: 175px;
+        text-shadow: 2px 2px 2px #000000;
+        text-align: right;
+    }
+    
+    .white-left {
+        padding-right: 100px;
+        color: var(--Whitecolor);
+        text-shadow: 2px 2px 2px #000000;
+        text-align: right;
+    }
+    
+    .mainpage-p-left {
+        font-family: 'Cormorant, medium';  
+        font-size: 17px;
+        padding: 30px 100px 30px 250px;
+        color: var(--Whitecolor);
+        text-align: right;
+    }
+
+    .lasagnabox {
+        padding-left: 105px;
+    }
+
+    .Lasagna {
+       max-height: 350px;
+       width: auto;
+    
+    }
+
+    .quote {
+        padding-top: 75px;
+        color: var(--Whitecolor);
+        font-family: 'Cormorant';  
+        font-size: 10px;
+    }
+
+
+
+ /*The Wine section*/
+
+.TheWine {
+    min-height: 570px;
+    padding: 75px;
+}
+
+.Wine {
+    height: auto;
+    width: auto;
+}
+
+
+
+/*Email form*/
+
+.emailrow {
+    padding: 15px 155px;
+    background-color: var(--Greycolor);
+}
+
+.Signup {
+    color: var(--Blackcolor);
+    font-family: 'Cormorant, semibold';  
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 1.5px #4f4f4f;
+    text-align: center;
+}
+
+.form-label {
+    color: var(--Blackcolor);
+    font-family: 'Cormorant, bold';  
+    
+}
+
+
+/*Contact footer*/
+
+.contactfooter {
+    background-color: var(--Greycolor);
+    padding: 25px 170px;
+    font-family: 'Cormorant, semibold'; 
+}
+
+.contactus {
+    font-family: 'Cormorant, bold';  
+    font-size: 25px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.Footerlogo {
+    font-family: 'Cormorant, semibold';  
+    font-size: 40px;
+    writing-mode: vertical-lr;  
+    text-align: center;
+    align-items: center;
+}
+
+.undertitle {
+text-decoration: underline;
+font-weight: bold;
+}
+
+.Floral {
+    max-height: 200px;
+    justify-content: right;
+}
+
+
+
+/*Media queries*/
+@media only screen and (max-width:700px) {
+    
+    .frostedbox {
+        top:37%;
+        padding: 10px 10px;
+        color: var(--Whitecolor);
+        left: 10%;
+        right: 10%;
+    }
+
+
+    /*Media queries for History*/
+
+.OurHistory {
+    padding: 10px 20px;
+    background-image: none;
+    background-color: #222222;
+    z-index: 1;
+}
+
+    .castlebox {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .quote {
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+
+    /*Media queries for different text*/
+
+h3 {
+    font-size: 25px;
+    padding: 5px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+.yellow-left {
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.yellow-right {
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.white-left {
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.white-right{
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.mainpage-p-right {
+    display: inline-flex;
+    padding: 0px;
+    text-align: left;
+}
+
+.mainpage-p-left {
+    display: inline-flex;
+    padding: 0px;
+    text-align: left;
+}
+
+
+
+    /*Media queries for food*/
+
+.TheFood {
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #222222;
+    background-image: none !important; 
+    z-index: 1;
+}
+
+.lasagnabox {
+    padding: 0px !important;
+    order: 2;
+    justify-content: center;
+}
+
+.carousel-item {
+    padding-left: 4px;
+    justify-content: center;
+}
+
+
+    /*Media queries for wine*/
+
+.TheWine {
+    padding: 10px 20px 35px 20px;
+    background-color: #222222;
+    background-image: none !important;
+    z-index: 1;
+}
+
+.winebox {
+    padding: 0%;
+    justify-content: center;
+}
+
+    /*Media queries for Email form*/
+
+.emailrow {
+    padding: 20px 5px;
+}
+
+
+    /*Media queries for Contact footer*/
+
+.contactfooter {
+    padding: 25px 25px;
+}
+
+.contactus {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contactfooter p {
+    font-size: 13px;
+}
+
+.contactfooter h2 {
+    font-size: 17px;
+}
+
+.Footerlogo {
+    align-items: flex-end;
+}
+
+.Floral {
+    display: none;
+}
+
+}

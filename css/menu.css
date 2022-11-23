@@ -1,0 +1,105 @@
+:root {
+    --Whitecolor: #EEEEEE;
+    --Goldcolor: #D7B76A;
+    --Blackcolor: #333333;
+    --Greycolor: #D0D0D0;
+}
+
+* {
+    margin: 0px;
+}
+
+
+/*Background and overall design*/
+
+.Menupage {
+    background-image: url("../img/menu.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cormorant';
+    padding: 10px;
+}
+
+
+/*Return Button*/
+
+.btn {
+    margin-top: 10px;
+}
+
+
+/*Header title*/
+
+.Our {
+    color: var(--Goldcolor);
+    font-family: 'Cormorant, bold';
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 3px #767676;
+}
+
+.Menu {
+    color: var(--Blackcolor);
+    font-family: 'Cormorant, bold';
+    font-size: 50px;
+    padding: 0px 0px 45px 120px;
+    text-shadow: 0.5px 0.5px 3px #767676;
+}
+
+
+/*Overall Typhography*/
+
+h4 {
+    text-decoration: underline;
+}
+
+h6 {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+p {
+    word-break: break-all;
+    padding-bottom: 20px;
+}
+
+
+/*Wine Section*/
+
+.Wine {
+    padding-bottom: 10px;
+}
+
+.Winecart {
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+
+/*Media Queries for Menu html*/
+
+@media only screen and (max-width:700px) {
+
+    .Menupage {
+        padding: 0px 20px;
+    }
+
+    .Our {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .Menu {
+        text-align: center;
+        padding: 0px !important;
+    }
+
+    .Wine {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .menurow {
+        text-align: center;
+    }
+}

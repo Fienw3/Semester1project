@@ -1,0 +1,116 @@
+:root {
+    --Whitecolor: #EEEEEE;
+    --Goldcolor: #D7B76A;
+    --Blackcolor: #333333;
+    --Greycolor: #D0D0D0;
+}
+
+* {
+    margin: 0px;
+    background-color: var(--Blackcolor);
+}
+
+
+/*Background and overall design*/
+
+.Bookingpage {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cormorant, bold';
+    padding: 30px;
+}
+
+
+/*Return Button*/
+
+.btn {
+    margin-top: 10px;
+}
+
+
+
+/*Header title*/
+
+.Book {
+    color: var(--Goldcolor);
+    font-family: 'Cormorant, bold';
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 3px #000000;
+}
+
+.Table {
+    color: var(--Whitecolor);
+    font-family: 'Cormorant, bold';
+    font-size: 50px;
+    padding-left: 30px;
+    text-shadow: 0.5px 0.5px 3px #000000;
+}
+
+
+/*Booking Form*/
+
+.Formbox {
+    padding: 50px 185px 85px 185px;
+}
+
+
+/*Adress Section*/
+
+.Address {
+    padding: 10px 185px;
+}
+
+.Map {
+    padding-bottom: 30px;
+}
+
+
+/*Overall Typhography*/
+
+h3 {
+    font-size: 50px;
+    color: var(--Goldcolor);
+    font-family: 'Cormorant, bold';
+    text-shadow: 0.5px 0.5px 3px #000000;
+}
+
+p {
+    font-size: 25px;
+    color: #D0D0D0;
+    font-family: 'Cormorant, bold';
+    padding-top: 50px;
+}
+
+
+
+/*Media Queries for booking html*/
+
+@media only screen and (max-width: 700px) {
+ 
+    .Formbox {
+        padding: 35px 15px 35px 15px;
+    }    
+
+    .Address{
+        padding: 0px;
+    }
+
+    .addresscol {
+    text-align: center;
+    padding: 22.5px;
+    }
+
+    .gmap_canvas{
+        justify-content: center;
+    }
+
+    .mapouter {
+        justify-content: center;
+    }
+
+    .Map {
+        justify-content: center;
+    }
+}
